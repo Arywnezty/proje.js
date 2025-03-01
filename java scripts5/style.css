@@ -1,0 +1,16 @@
+.body{
+    max-width: 1000px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.body img{
+    width: 50%;
+    
+}
+
+.btn{
+padding: 0px 23px;
+margin: 11% 0;
+}
