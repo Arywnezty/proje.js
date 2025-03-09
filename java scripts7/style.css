@@ -1,0 +1,35 @@
+body {
+    overflow: hidden;
+  }
+  
+  img {
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+  }
+  
+  .container {
+    width: 250px;
+    height: 200vh;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    transition: 0.5s;
+    transform-origin: 25% 50%;
+  }
+  
+  button {
+    position: absolute;
+    bottom: 5rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .rotate {
+    transform: rotate(180deg);
+  }
+  
